@@ -1,9 +1,9 @@
 CFLAGS=-Wall -g
-CC := clang
+#CC := clang
 # CXX := clang++
 LINK := $(CC)
 
-all: ex1
+#all: ex1
 
 clean:
-	rm -f ex?
+	rm -f ex? ex??
